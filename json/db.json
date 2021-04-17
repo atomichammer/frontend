@@ -1,0 +1,80 @@
+{
+    "data": {
+        "temperature": 1,
+        "humidity": 2,
+        "time": "01:02"
+    },
+    "network": {
+        "ip": "192.168.8.102",
+        "netmask": "255.255.255.0",
+        "gateway": "192.168.8.1",
+        "wifi_enabled": true,
+        "wifi_ssid": "void",
+        "wifi_pass": "60380003",
+        "dhcp_enabled": true
+    },
+    "state": {
+        "state": [{
+                "title": "Preset 1",
+                "active": false,
+                "activeFrom": 540,
+                "data": [{
+                        "title": "Cold White",
+                        "throttle": true,
+                        "value": 6,
+                        "color": "light-blue"
+                    },
+                    {
+                        "title": "Warm White",
+                        "throttle": true,
+                        "value": 4,
+                        "color": "yellow lighten-3"
+                    },
+                    {
+                        "title": "Red",
+                        "throttle": true,
+                        "value": 4,
+                        "color": "red"
+                    },
+                    {
+                        "title": "Ultraviolet",
+                        "throttle": true,
+                        "value": 4,
+                        "color": "purple"
+                    }
+                ]
+            },
+            {
+                "title": "Preset 2",
+                "active": true,
+                "activeFrom": 1260,
+                "data": [{
+                        "title": "Cold White",
+                        "throttle": false,
+                        "value": 2,
+                        "color": "light-blue"
+                    },
+                    {
+                        "title": "Warm White",
+                        "throttle": false,
+                        "value": 3,
+                        "color": "yellow lighten-3"
+                    },
+                    {
+                        "title": "Red",
+                        "throttle": false,
+                        "value": 4,
+                        "color": "red"
+                    },
+                    {
+                        "title": "Ultraviolet",
+                        "throttle": false,
+                        "value": 5,
+                        "color": "purple"
+                    }
+                ]
+            }
+        ],
+        "deviceId": "config"
+    }
+}
